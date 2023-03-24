@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "425546479698",
+    "project_id": "rizzify-fda37",
+    "storage_bucket": "rizzify-fda37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425546479698:android:9743f1ece4c1405c5c078b",
+        "android_client_info": {
+          "package_name": "com.example.rizzify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425546479698-0rshj68c3hoh4cbcotcpj6be7u9kcuku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYZfsOGEW_T2VrlqXkIEmbnq7SqhkArVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425546479698-0rshj68c3hoh4cbcotcpj6be7u9kcuku.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "425546479698-na5lmflm9p5vh4dubda1oh07k41kg0bq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.rizzify"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

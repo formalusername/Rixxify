@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rizzify/Pages/SecretPage.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../main.dart';
 
@@ -90,10 +91,20 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text(
-              text,
-              style: const TextStyle(fontSize: 25),
-              textAlign: TextAlign.center,
+            GestureDetector(
+              // navigate to SecretPage on tap
+              onDoubleTap: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (_) => const SecretPage(),
+                    ));
+              },
+              child: Text(
+                text,
+                style: const TextStyle(fontSize: 25),
+                textAlign: TextAlign.center,
+              ),
             ),
             Padding(
               padding: const EdgeInsets.only(top: 20, bottom: 200),

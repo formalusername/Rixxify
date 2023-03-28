@@ -55,7 +55,7 @@ class _SecretPageState extends State<SecretPage> {
                     width: 200,
                   )
                 : const Text(
-                    "come back in day 10",
+                    "Ykt'vo rktjc u luao sbus row iuj qoo Nts ckj's uqqtho ykt'vo wkj sbo auho Sbo lpdzo ykt ipuvo wdgg kjgy no Kj cuy soj wboj sbo hkkjq upo suho",
                     style: TextStyle(fontSize: 25),
                     textAlign: TextAlign.center,
                   ),

@@ -59,6 +59,13 @@ class _MyHomePageState extends State<MyHomePage> {
     "Er du en mikroorganisme?",
     "Du må være et foton.",
     "Are you an infectious microorganism?",
+    "Are you a vitamin?",
+    "Are you hot chocolate?",
+    "Are you a molecule?",
+    "is your name hydrogen?",
+    "You are definitely a 10, but you would be a 1 on the ph scale",
+    "can you be my valence electron?",
+    "is your name carbon?",
   ];
   List<String> myAnswers = [
     'Because you are one of the hottest things i know.',
@@ -79,6 +86,13 @@ class _MyHomePageState extends State<MyHomePage> {
     "Fordi jeg vil undersøke deg næremere",
     "Tatt i betraktning hvor fort du kom deg inn i hjertet mitt",
     "Because i can´t resist your infectious charm",
+    "Because you ate vital for my health",
+    "Because just i can´t get enough of you, and you´re so hot",
+    "Because you are the perfect combination of atoms",
+    "Because you are the most important element in my life",
+    "Because girl, you are far from basic",
+    "Because you would make me complete",
+    "Because you are the most important thing for my biology",
   ];
 
   @override

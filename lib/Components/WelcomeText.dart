@@ -138,6 +138,21 @@ class _welcomeTextState extends State<welcomeText> {
               style: TextStyle(fontSize: 20),
               textAlign: TextAlign.center,
             ),
+            // Circle showing how much time is left, being timeUntil divided by 24 hours
+            Padding(
+              padding: const EdgeInsets.only(top: 20),
+              child: SizedBox(
+                width: 200,
+                height: 200,
+                child: CircularProgressIndicator(
+                  value: timeUntil.inSeconds / 86400,
+                  strokeWidth: 10,
+                  backgroundColor: Colors.grey,
+                  valueColor: AlwaysStoppedAnimation<Color>(Colors.yellow),
+                ),
+              ),
+            ),
+            // Button to see previous rizz
             Padding(
               padding: const EdgeInsets.only(top: 20, bottom: 200),
               child: ElevatedButton(

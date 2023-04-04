@@ -133,9 +133,11 @@ class _welcomeTextState extends State<welcomeText> {
             const SizedBox(
               height: 15,
             ),
+
+            // Text inside the circle showing how much time is left
             Text(
               "Your new rizz will be ready in: $timeUntilFormatted",
-              style: TextStyle(fontSize: 20),
+              style: const TextStyle(fontSize: 20),
               textAlign: TextAlign.center,
             ),
             // Circle showing how much time is left, being timeUntil divided by 24 hours
@@ -148,7 +150,8 @@ class _welcomeTextState extends State<welcomeText> {
                   value: timeUntil.inSeconds / 86400,
                   strokeWidth: 10,
                   backgroundColor: Colors.grey,
-                  valueColor: AlwaysStoppedAnimation<Color>(Colors.yellow),
+                  valueColor:
+                      const AlwaysStoppedAnimation<Color>(Colors.yellow),
                 ),
               ),
             ),
